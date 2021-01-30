@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+.container{
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url('pexels-sanaan-mazhar-3052361.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(226, 226, 226);
+    display: flex;
+    align-items: center;
+
+}
+
+header{
+    padding: 3em;
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 4.5rem;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-top: 0.5em;
+    font-size: 2rem;
+    color: rgb(177, 177, 177);
+}
+.txt-type{
+    display: inline-block;
+    margin-left: 0.2rem;
+}
+.txt-type > .txt{
+    border-right: 1px solid  rgb(226, 226, 226) ;
+}
